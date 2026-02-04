@@ -23,6 +23,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ImsService
 
+# Vendor IMS compatibility boot jar
+PRODUCT_BOOT_JARS += \
+    telephony-metrics-compat
+
 # IMS Properties
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
